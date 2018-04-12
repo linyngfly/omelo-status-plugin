@@ -1,6 +1,6 @@
 {
   "name": "omelo-status-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "deprecated": false,
   "description": "Wrap koa2 module as omelo status plugin.",

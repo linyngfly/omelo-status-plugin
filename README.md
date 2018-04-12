@@ -1,20 +1,20 @@
-pomelo-status-plugin
+omelo-status-plugin
 ====================
 
-pomelo-status-plugin is a plugin for pomelo, it can be used in pomelo(>=0.6).
+omelo-status-plugin is a plugin for omelo, it can be used in omelo(>=0.6).
 
-pomelo-status-plugin provides global status service for pomelo, which uses persistent storage to save users information.
+omelo-status-plugin provides global status service for omelo, which uses persistent storage to save users information.
 
 ##Installation
 
 ```
-npm install pomelo-status-plugin
+npm install omelo-status-plugin
 ```
 
 ##Usage
 
 ```
-var status = require('pomelo-status-plugin');
+var status = require('omelo-status-plugin');
 
 app.use(status, {status: {
   host: '127.0.0.1',
@@ -69,7 +69,7 @@ get frontend server id by user id
 status plugin use redis as a default persistent storage, you can change it with your own implementation. 
 
 ```
-var status = require('pomelo-status-plugin');
+var status = require('omelo-status-plugin');
 var mysqlStatusManager = require('./mysqlStatusManager');
 
 app.use(status, {status: {
